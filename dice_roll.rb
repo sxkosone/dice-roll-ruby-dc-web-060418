@@ -2,6 +2,13 @@
 
 # Feel free to google "how to generate a random number in ruby"
 
-def roll
+def first_roll
   # code goes here
+  num = rand(1..6)
+  num
+end
+
+def roll
+  num = [1, 2, 3, 4, 5, 6].sample
+  num
 end
